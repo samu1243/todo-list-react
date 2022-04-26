@@ -10,3 +10,22 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background-color: black;
+}
+.todo{
+    display: flex;
+    justify-content: space-between;  
+}
+#text-todo{
+    font-weight: bolder;
+}
+.todo-left{
+    font-style: italic;
+    font-weight: bold;
+    align-items: center;
+    border: 1px solid goldenrod;
+}
+.input::placeholder{
+color:rgb(31, 161, 31);
+}
